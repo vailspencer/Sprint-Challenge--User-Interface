@@ -61,6 +61,31 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
+/* Style CSS above*/
+
+.navigation {
+    font-size: 15px;
+    color:black;
+    text-align: center;
+    margin: 1%;
+    padding: 1%;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    text-decoration: none;
+}
+
+.anchor-style {
+    color:black;
+    text-decoration: none;
+}
+
+.highway-img {
+    width: 90%;
+    margin-bottom: 40px;
+    margin-left: 95px;
+    margin-right: 40px;
+}
 
 p {
     line-height: 1.4;
@@ -75,7 +100,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     border-bottom: 1px dashed black;
 }
 
@@ -143,4 +168,224 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.box1 {
+    background: teal;
+    color:white;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box2 {
+    background: gold;
+    color:white;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box3 {
+    background: cadetblue;
+    color:white;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box4 {
+    background: coral;
+    color:white;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box5 {
+    background: crimson;
+    color:white;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box6 {
+    background: forestgreen;
+    color:white;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box7 {
+    background:darkorchid;
+    color:white;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box8 {
+    background: hotpink;
+    color:white;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box9 {
+    background: indigo;
+    color:white;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box10 {
+    background: dodgerblue;
+    color:white;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* About page CSS*/
+
+
+.section-images {
+    margin-bottom: 25px;
+}
+
+.jumbo-about-img {
+    width: 85%;
+    margin-bottom: 40px;
+    margin-left: 100px;
+    margin-right: 40px;
+}
+
+.top-section {
+    margin-bottom: 55px;
+    padding: 40px;
+    border-bottom: 2px dotted black;
+    margin-left: 55px;
+    margin-right: 40px;
+
+}
+
+.row-one {
+  display:inline-flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-left: 55px;
+  margin-right: 40px;  
+}
+
+.left-box {
+    display:flex;
+    flex-direction:column;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 35px;
+    border-bottom: 2px dotted black;
+
+}
+
+.right-box {
+    display:flex;
+    flex-direction:column;
+    align-self: auto;
+    align-content: flex-start;
+    align-items: flex-start;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 35px;
+    border-bottom: 2px dotted black;
+}
+
+.row2 {
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 55px;
+    margin-right: 40px;  
+}
+
+.bottom-section { 
+    margin-bottom: 35px;
+    padding: 35px;
+    border: 0;
+    margin-left: 55px;
+    margin-right: 50px;
+    align-items: center;
+}
+
+.button { 
+    background-color: white; 
+    border: 2px solid black;
+    border-radius: 10px;
+    color: black;
+    padding: 8px 6px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    width: 35%;
+    margin: 1%;
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+
+.button:hover {
+    background-color: #1e1e26;
+    color:white;
+}
+
+
+/* learn page */
+
+.mountain-image {
+    width: 85%;
+    margin-bottom: 40px;
+    margin-left: 100px;
+    margin-right: 40px;
+}
+
+.awesome-products {
+    margin-bottom: 55px;
+    padding: 40px;
+    border-bottom: 2px dotted black;
+    margin-left: 55px;
+    margin-right: 40px;
 }
